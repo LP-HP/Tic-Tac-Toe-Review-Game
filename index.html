@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<title>Tic-Tac-Toe Review Game</title>
+<body>
+    <h1 id="playerturn"></h1>
+    || <button id="btn1" onclick='cl(btn1)'>?</button> |
+    | <button id="btn2" onclick='cl(btn2)'>?</button> |
+    | <button id="btn3" onclick='cl(btn3)'>?</button> ||
+    <br>
+    <hr>
+    <br>
+    || <button id="btn4" onclick='cl(btn4)'>?</button> |
+    | <button id="btn5" onclick='cl(btn5)'>?</button> |
+    | <button id="btn6" onclick='cl(btn6)'>?</button> ||
+    <br>
+    <hr>
+    <br>
+    || <button id="btn7" onclick='cl(btn7)'>?</button> |
+    | <button id="btn8" onclick='cl(btn8)'>?</button> |
+    | <button id="btn9" onclick='cl(btn9)'>?</button> ||
+    <br>
+    <hr id='underBoard'>
+    <p id='question' style = 'visibility:hidden'>none</p>
+    <input id="Hello" style = 'visibility:hidden'>
+    <button id='submit' onclick='submit()' style = 'visibility:hidden'>Submit</button>
+    <p id="correctanswer" style = 'visibility:hidden'></p>
+    <br>
+    <br>
+    <br>
+    <button id='reset' onclick='resetboard()'>reset board</button>
+    <p>Rules:<br>To place your move, you must answer a question about babysitting correctly.<br>If the answer is incorrect, your turn is skipped.<br>Always answer in all caps or in numbers.</p>
+   <script src='index.js'></script>
+   <style>
+     hr
+     {
+       width: 125px;
+       float: left;
+       border-color: red;
+     }
+     #underBoard {
+       width: 100%;
+       border-color: green;
+     }
+   </style>
+</body>
+</html>
