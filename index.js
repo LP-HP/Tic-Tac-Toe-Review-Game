@@ -312,6 +312,11 @@ const submit = (btn) => {
     document.getElementById("btn7").disabled = false;
     document.getElementById("btn8").disabled = false;
     document.getElementById("btn9").disabled = false;
+    for (let i=0;i<buttons.length;i++){
+        if (document.getElementById(buttons[i]).innerHTML === "O"){
+            document.getElementById(buttons[i]).disabled = true;
+        }
+    }
     document.getElementById('Hello').style.visibility = 'hidden';
     document.getElementById('question').style.visibility = 'hidden';
     document.getElementById('submit').style.visibility = 'hidden';
@@ -344,4 +349,8 @@ const resetboard = () => {
   currentquestion = NaN;
   document.getElementById("Hello").value = "";
   document.getElementById("correctanswer").innerHTML = "";
+  document.getElementById('Hello').style.visibility = 'hidden';
+  document.getElementById('question').style.visibility = 'hidden';
+  document.getElementById('submit').style.visibility = 'hidden';
+  document.getElementById('correctanswer').style.visibility = 'hidden';
 };
