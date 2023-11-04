@@ -102,170 +102,244 @@ const aiturn = () => {
   btn9t = document.getElementById('btn9').innerHTML;
   if (btn1t+btn2t === "OO" && btn3t ==="?"){
     document.getElementById('btn3').innerHTML = 'O';
+    document.getElementById('btn3').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn4t+btn5t === "OO"&& btn6t ==="?"){
     document.getElementById('btn6').innerHTML = 'O';
+    document.getElementById('btn6').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn7t+btn8t === "OO"&& btn9t ==="?"){
     document.getElementById('btn9').innerHTML = 'O';
+    document.getElementById('btn9').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn1t+btn4t === "OO"&& btn7t ==="?"){
     document.getElementById('btn7').innerHTML = 'O';
+    document.getElementById('btn7').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn2t+btn5t === "OO"&& btn8t ==="?"){
     document.getElementById('btn8').innerHTML = 'O';
+    document.getElementById('btn8').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn3t+btn6t === "OO"&& btn9t ==="?"){
     document.getElementById('btn9').innerHTML = 'O';
+    document.getElementById('btn9').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn3t+btn2t === "OO"&& btn1t ==="?"){
     document.getElementById('btn1').innerHTML = 'O';
+    document.getElementById('btn1').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn6t+btn5t === "OO"&& btn4t ==="?"){
     document.getElementById('btn4').innerHTML = 'O';
+    document.getElementById('btn4').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn9t+btn8t === "OO"&& btn7t ==="?"){
     document.getElementById('btn7').innerHTML = 'O';
+    document.getElementById('btn7').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn7t+btn4t === "OO"&& btn1t ==="?"){
     document.getElementById('btn1').innerHTML = 'O';
+    document.getElementById('btn1').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn8t+btn5t === "OO"&& btn2t ==="?"){
     document.getElementById('btn2').innerHTML = 'O';
+    document.getElementById('btn2').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn9t+btn6t === "OO"&& btn3t ==="?"){
     document.getElementById('btn3').innerHTML = 'O';
+    document.getElementById('btn3').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn1t+btn5t === "OO"&& btn9t ==="?"){
     document.getElementById('btn9').innerHTML = 'O';
+    document.getElementById('btn9').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn9t+btn5t === "OO"&& btn1t ==="?"){
     document.getElementById('btn1').innerHTML = 'O';
+    document.getElementById('btn1').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn3t+btn5t === "OO"&& btn7t ==="?"){
     document.getElementById('btn7').innerHTML = 'O';
+    document.getElementById('btn7').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }  else if (btn7t+btn5t === "OO"&& btn3t ==="?"){
     document.getElementById('btn3').innerHTML = 'O';
+    document.getElementById('btn3').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
   //oreuigiuerhgiuerh
     if (btn1t+btn2t === "XX" && btn3t ==="?"){
     document.getElementById('btn3').innerHTML = 'O';
+    document.getElementById('btn3').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn4t+btn5t === "XX"&& btn6t ==="?"){
     document.getElementById('btn6').innerHTML = 'O';
+    document.getElementById('btn6').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn7t+btn8t === "XX"&& btn9t ==="?"){
     document.getElementById('btn9').innerHTML = 'O';
+    document.getElementById('btn9').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn1t+btn4t === "XX"&& btn7t ==="?"){
     document.getElementById('btn7').innerHTML = 'O';
+    document.getElementById('btn7').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn2t+btn5t === "XX"&& btn8t ==="?"){
     document.getElementById('btn8').innerHTML = 'O';
+    document.getElementById('btn8').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn3t+btn6t === "XX"&& btn9t ==="?"){
     document.getElementById('btn9').innerHTML = 'O';
+    document.getElementById('btn9').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn3t+btn2t === "XX"&& btn1t ==="?"){
     document.getElementById('btn1').innerHTML = 'O';
+    document.getElementById('btn1').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn6t+btn5t === "XX"&& btn4t ==="?"){
     document.getElementById('btn4').innerHTML = 'O';
+    document.getElementById('btn4').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn9t+btn8t === "XX"&& btn7t ==="?"){
     document.getElementById('btn7').innerHTML = 'O';
+    document.getElementById('btn7').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn7t+btn4t === "XX"&& btn1t ==="?"){
     document.getElementById('btn1').innerHTML = 'O';
+    document.getElementById('btn1').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn8t+btn5t === "XX"&& btn2t ==="?"){
     document.getElementById('btn2').innerHTML = 'O';
+    document.getElementById('btn2').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn9t+btn6t === "XX"&& btn3t ==="?"){
     document.getElementById('btn3').innerHTML = 'O';
+    document.getElementById('btn3').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn1t+btn5t === "XX"&& btn9t ==="?"){
     document.getElementById('btn9').innerHTML = 'O';
+    document.getElementById('btn9').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn9t+btn5t === "XX"&& btn1t ==="?"){
     document.getElementById('btn1').innerHTML = 'O';
+    document.getElementById('btn1').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
     else if (btn3t+btn5t === "XX"&& btn7t ==="?"){
     document.getElementById('btn7').innerHTML = 'O';
+    document.getElementById('btn7').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }  else if (btn7t+btn5t === "XX"&& btn3t ==="?"){
     document.getElementById('btn3').innerHTML = 'O';
+    document.getElementById('btn3').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
   else if (document.getElementById('btn5').innerHTML === '?'){
     document.getElementById('btn5').innerHTML = 'O';
+    document.getElementById('btn5').style.color = 'blue';
+    document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }else if (document.getElementById('btn1').innerHTML === '?'){
     document.getElementById('btn1').innerHTML = 'O';
+    document.getElementById('btn1').style.color = 'blue';
     document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
   else if (document.getElementById('btn3').innerHTML === '?'){
     document.getElementById('btn3').innerHTML = 'O';
+    document.getElementById('btn3').style.color = 'blue';
     document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
   else if (document.getElementById('btn7').innerHTML === '?'){
     document.getElementById('btn7').innerHTML = 'O';
+    document.getElementById('btn7').style.color = 'blue';
     document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
   else if (document.getElementById('btn9').innerHTML === '?'){
     document.getElementById('btn9').innerHTML = 'O';
+    document.getElementById('btn9').style.color = 'blue';
     document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   } else if (btn2t === '?'){
     document.getElementById('btn2').innerHTML = 'O';
+    document.getElementById('btn2').style.color = 'blue';
     document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
   else if (btn4t === '?'){
     document.getElementById('btn4').innerHTML = 'O';
+    document.getElementById('btn4').style.color = 'blue';
     document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
   else if (btn6t === '?'){
     document.getElementById('btn6').innerHTML = 'O';
+    document.getElementById('btn6').style.color = 'blue';
     document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
   else if (btn8t === '?'){
     document.getElementById('btn8').innerHTML = 'O';
+    document.getElementById('btn8').style.color = 'blue';
     document.getElementById('playerturn').innerHTML = "X's turn!";
     turn = 'player1';
   }
