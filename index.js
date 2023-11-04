@@ -313,7 +313,7 @@ const submit = (btn) => {
     document.getElementById("btn8").disabled = false;
     document.getElementById("btn9").disabled = false;
     for (let i=0;i<buttons.length;i++){
-        if (document.getElementById(buttons[i]).innerHTML === "O"){
+        if (document.getElementById(buttons[i]).innerHTML === "O" || document.getElementById(buttons[i]).innerHTML === "X"){
             document.getElementById(buttons[i]).disabled = true;
         }
     }
