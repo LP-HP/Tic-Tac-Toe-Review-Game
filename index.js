@@ -303,47 +303,47 @@ const cl = (btn) => {
 };
 const submit = (btn) => {
   if (document.getElementById("Hello").value === answers[currentquestion]){
-    if (document.getElementById("btn1").innerHTML === "O" || document.getElementById(buttons[i]).innerHTML === "X"){
+    if (document.getElementById("btn1").innerHTML === "O" || document.getElementById("btn1").innerHTML === "X"){
     document.getElementById("btn1").disabled = true;
     }else{
       document.getElementById("btn1").disabled = false;
     }
-    if (document.getElementById("btn2").innerHTML === "O" || document.getElementById(buttons[i]).innerHTML === "X"){
+    if (document.getElementById("btn2").innerHTML === "O" || document.getElementById("btn2").innerHTML === "X"){
     document.getElementById("btn2").disabled = true;
   }else{
     document.getElementById("btn2").disabled = false;
   }
-    if (document.getElementById("btn3").innerHTML === "O" || document.getElementById(buttons[i]).innerHTML === "X"){
+    if (document.getElementById("btn3").innerHTML === "O" || document.getElementById("btn3").innerHTML === "X"){
     document.getElementById("btn3").disabled = true;
   }else{
     document.getElementById("btn3").disabled = false;
   }
-    if (document.getElementById("btn4").innerHTML === "O" || document.getElementById(buttons[i]).innerHTML === "X"){
+    if (document.getElementById("btn4").innerHTML === "O" || document.getElementById("btn4").innerHTML === "X"){
     document.getElementById("btn4").disabled = true;
   }else{
     document.getElementById("btn4").disabled = false;
   }
-    if (document.getElementById("btn5").innerHTML === "O" || document.getElementById(buttons[i]).innerHTML === "X"){
+    if (document.getElementById("btn5").innerHTML === "O" || document.getElementById("btn5").innerHTML === "X"){
     document.getElementById("btn5").disabled = true;
   }else{
     document.getElementById("btn5").disabled = false;
   }
-    if (document.getElementById("btn6").innerHTML === "O" || document.getElementById(buttons[i]).innerHTML === "X"){
+    if (document.getElementById("btn6").innerHTML === "O" || document.getElementById("btn6").innerHTML === "X"){
     document.getElementById("btn6").disabled = true;
   }else{
     document.getElementById("btn6").disabled = false;
   }
-    if (document.getElementById("btn7").innerHTML === "O" || document.getElementById(buttons[i]).innerHTML === "X"){
+    if (document.getElementById("btn7").innerHTML === "O" || document.getElementById("btn7").innerHTML === "X"){
     document.getElementById("btn7").disabled = true;
   }else{
     document.getElementById("btn7").disabled = false;
   }
-    if (document.getElementById("btn8").innerHTML === "O" || document.getElementById(buttons[i]).innerHTML === "X"){
+    if (document.getElementById("btn8").innerHTML === "O" || document.getElementById("btn8").innerHTML === "X"){
     document.getElementById("btn8").disabled = true;
   }else{
     document.getElementById("btn8").disabled = false;
   }
-    if (document.getElementById("btn9").innerHTML === "O" || document.getElementById(buttons[i]).innerHTML === "X"){
+    if (document.getElementById("btn9").innerHTML === "O" || document.getElementById("btn9").innerHTML === "X"){
     document.getElementById("btn9").disabled = true;
   }else{
     document.getElementById("btn9").disabled = false;
