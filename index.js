@@ -14,7 +14,7 @@ let questions = ["How often (in minutes) should you check on a sleeping child or
 "True or false: Keep children away from windows and doors when there is high wind.",
 "When should you intervene in a conflict between siblings or children?<br>A.When no one is getting hurt<br>B.When there is a risk of a child getting injured<br>C.Whenever you want<br>D.All of the above",
 "When can you give a child a bath?<br>A.With the parents approval<br>B.If you know how<br>C.If you are comfortable with doing so<br>D.All of the above",
-"How can you prevent falls when using a high chair?<br>A.Secure the child with the safety straps on the chair<br>B.Do not position high chairs next to anything the child could push off of<br>C.Both A and C<br>D.None of the above"];
+"How can you prevent falls when using a high chair?<br>A.Secure the child with the safety straps on the chair<br>B.Do not position high chairs next to anything the child could push off of<br>C.Both A and B<br>D.None of the above"];
 let answers=["15","A", "A", "20", "C", "D", "TRUE", "B", "D", "C"];
 let currentquestion=NaN;
 document.getElementById('playerturn').innerHTML = "X's turn!";
@@ -372,6 +372,7 @@ const cl = (btn) => {
   document.getElementById('question').style.visibility = 'visible';
   document.getElementById('submit').style.visibility = 'visible';
   document.getElementById('correctanswer').style.visibility = 'visible';
+  document.getElementById('correctanswer').innerHTML = "";
   choosequest();
 
 };
